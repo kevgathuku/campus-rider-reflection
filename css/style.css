@@ -1,26 +1,33 @@
 body {
-  background-color: #eee8d5;
+    background-color: #eee8d5;
 }
 
 /* margin: auto horizontally center the image within its container.
   Since it is a block element, is is aligned centrally in the page
 */
-img {
-  display: block;
-  margin: auto;
-  width: 230px;
-  height: 230px;
-  /*-webkit-box-reflect: below 2px;*/
-  /* offset-x | offset-y | blur-radius | color */
-  box-shadow: 5px 12px 35px #e8e98c;
-}
 
-.img-circle {
+img {
+    display: block;
+    margin: auto;
+    width: 230px;
+    height: 230px;
+    /* Format: offset-x | offset-y | blur-radius | color */
+    box-shadow: 5px 12px 35px #e8e98c;
+    /* Set to negative value to cut off the bottom half of the image
+       Use 135px to cater for the height of the border
+    */
+    margin-bottom: -135px;
+}
+img.img-circle {
     border-radius: 50%;
 }
-
-.thick-border {
-  border-style: solid;
-  border-width: 20px;
-  border-color: #dff4f5;
+img.thick-border {
+    border-style: solid;
+    border-width: 20px;
+    border-color: #dff4f5;
+}
+div.image-cropper {
+    position: relative;
+    /* Hide overflow elements and don't show scrollbar */
+    overflow: hidden;
 }
