@@ -8,8 +8,11 @@ body {
 img {
   display: block;
   margin: auto;
-  width: 430px;
-  height: 430px;
+  width: 230px;
+  height: 230px;
+  /*-webkit-box-reflect: below 2px;*/
+  /* offset-x | offset-y | blur-radius | color */
+  box-shadow: 5px 12px 35px #e8e98c;
 }
 
 .img-circle {
@@ -19,5 +22,5 @@ img {
 .thick-border {
   border-style: solid;
   border-width: 20px;
-  border-color: #ffffff;
+  border-color: #dff4f5;
 }
