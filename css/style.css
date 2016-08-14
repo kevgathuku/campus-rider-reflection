@@ -2,7 +2,16 @@ body {
   background-color: #eee8d5;
 }
 
+/* margin: auto horizontally center the image within its container.
+  Since it is a block element, is is aligned centrally in the page
+*/
 img {
   display: block;
   margin: auto;
+  width: 300px;
+  height: 300px;
+}
+
+.img-circle {
+    border-radius: 50%;
 }
