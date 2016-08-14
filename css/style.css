@@ -8,10 +8,16 @@ body {
 img {
   display: block;
   margin: auto;
-  width: 300px;
-  height: 300px;
+  width: 430px;
+  height: 430px;
 }
 
 .img-circle {
     border-radius: 50%;
+}
+
+.thick-border {
+  border-style: solid;
+  border-width: 20px;
+  border-color: #ffffff;
 }
