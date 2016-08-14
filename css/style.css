@@ -1,3 +1,8 @@
 body {
   background-color: #eee8d5;
 }
+
+img {
+  display: block;
+  margin: auto;
+}
