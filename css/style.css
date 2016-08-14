@@ -31,3 +31,13 @@ div.image-cropper {
     /* Hide overflow elements and don't show scrollbar */
     overflow: hidden;
 }
+div.image-reflect {
+    position: relative;
+    overflow: hidden;
+    -moz-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    -webkit-transform: scale(1, -1);
+    transform: scale(1, -1);
+    /* Optional: To show that this is the reflected portion */
+    opacity: 0.8;
+}
